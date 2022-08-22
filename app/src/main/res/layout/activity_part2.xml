@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollwid"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalscrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image_toview"
+                android:src="@drawable/image1"
+                android:layout_width="800dip"
+                android:layout_height="250dip"
+                android:gravity="center" />
+            <ImageView
+                android:id="@+id/image_toview2"
+                android:src="@drawable/image2"
+                android:layout_width="200dip"
+                android:layout_height="250dip"
+                android:gravity="center"
+                android:layout_marginTop="10dip" />
+            <ImageView
+                android:id="@+id/image_toview3"
+                android:src="@drawable/image3"
+                android:layout_width="200dip"
+                android:layout_height="250dip"
+                android:gravity="center"
+                android:layout_marginTop="10dip" />
+            <ImageView
+                android:id="@+id/image_toview4"
+                android:src="@drawable/image4"
+                android:layout_width="200dip"
+                android:layout_height="250dip"
+                android:gravity="center"
+                android:layout_marginTop="10dip" />
+        </LinearLayout>
+    </HorizontalScrollView >
+</ScrollView>
